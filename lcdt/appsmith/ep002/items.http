@@ -1,0 +1,19 @@
+### all item fields
+GET {{$dotenv COLLECTIONS_URL}}/items/records
+
+### some item fields
+GET {{$dotenv COLLECTIONS_URL}}/items/records
+?fields=id,name,price,images,labels
+
+### some item fields with expanded labels
+GET {{$dotenv COLLECTIONS_URL}}/items/records
+?fields=id,name,price,images,labels,expand
+&expand=labels
+
+### some item fields and expanded label names
+GET {{$dotenv COLLECTIONS_URL}}/items/records
+?fields=id,name,price,images,expand.labels.name
+&expand=labels
+
+### get item file
+GET http://127.0.0.1:8090/api/files/items/2dp85al4b9248h4/item5_1_GK1S84ZPy3.jpeg

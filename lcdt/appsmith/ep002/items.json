@@ -1,0 +1,72 @@
+{
+  "page": 1,
+  "perPage": 30,
+  "totalItems": 5,
+  "totalPages": 1,
+  "items": [
+    {
+      "collectionId": "rhbw5bb5l6zm3cl",
+      "collectionName": "items",
+      "created": "2024-04-15 14:04:30.680Z",
+      "description": "Noise-canceling headphones",
+      "id": "2dp85al4b9248h4",
+      "images": ["item5_1_GK1S84ZPy3.jpeg", "item5_2_W0rQTnF6Y3.jpeg"],
+      "labels": ["7gqdb6yxlpb2g6y", "1i3bnyy7coobulo"],
+      "name": "Headphones",
+      "price": 149.99,
+      "updated": "2024-04-21 17:56:55.494Z"
+    },
+    {
+      "collectionId": "rhbw5bb5l6zm3cl",
+      "collectionName": "items",
+      "created": "2024-04-15 14:04:34.883Z",
+      "description": "Pack of 12 pencils",
+      "id": "6hgpx6of53un39f",
+      "images": ["item4_1_Cr5EF5zMAN.jpeg"],
+      "labels": ["ep4gzsky79kg5hu"],
+      "name": "Pencils",
+      "price": 4.99,
+      "updated": "2024-04-27 14:46:54.352Z"
+    },
+    {
+      "collectionId": "rhbw5bb5l6zm3cl",
+      "collectionName": "items",
+      "created": "2024-04-15 14:04:36.988Z",
+      "description": "Fantasy epic by J.R.R. Tolkien",
+      "id": "k8yp0fxz5zw53ru",
+      "images": ["item3_1_o6riLj8Xgn.jpeg"],
+      "labels": ["5183wjegkffsh1o", "p9dl7wcw06mwqy7"],
+      "name": "The Lord of the Rings",
+      "price": 25.5,
+      "updated": "2024-04-21 17:55:25.550Z"
+    },
+    {
+      "collectionId": "rhbw5bb5l6zm3cl",
+      "collectionName": "items",
+      "created": "2024-04-15 14:04:38.813Z",
+      "description": "Dry erase markers",
+      "id": "beqp46n0mydq39y",
+      "images": ["item2_1_E3WdCKbhR4.jpeg"],
+      "labels": ["ep4gzsky79kg5hu"],
+      "name": "Whiteboard Markers",
+      "price": 9.99,
+      "updated": "2024-04-21 16:21:08.506Z"
+    },
+    {
+      "collectionId": "rhbw5bb5l6zm3cl",
+      "collectionName": "items",
+      "created": "2024-04-15 14:04:41.319Z",
+      "description": "Set of all Harry Potter books",
+      "id": "ncme0dr4tou29kz",
+      "images": [
+        "item1_1_GsDEU86x9x.jpeg",
+        "item1_2_MfrvedFzo1.jpeg",
+        "item1_3_QZrlxCv0tH.jpeg"
+      ],
+      "labels": ["5183wjegkffsh1o", "p9dl7wcw06mwqy7"],
+      "name": "Harry Potter Collection",
+      "price": 115.35,
+      "updated": "2024-04-21 16:19:44.468Z"
+    }
+  ]
+}
