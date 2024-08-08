@@ -1,0 +1,46 @@
+import 'package:material_design/item.dart';
+
+var _items = <Item>[
+  Item(1, 'Soup - Campbells Mac N Cheese', 2.47, true,
+      'Alpha-1-antitrypsin deficiency'),
+  Item(2, 'Wine - Crozes Hermitage E.', 4.24, true,
+      'Other disorders of refraction and accommodation'),
+  Item(3, 'Bread - Italian Sesame Poly', 2.68, true,
+      'Late effect of burn of wrist and hand'),
+  Item(4, 'Vinegar - White', 9.29, true,
+      "Disorders of meninges, not elsewhere classified"),
+  Item(5, 'Pork - Liver', 11.76, true,
+      'Closed fracture of unspecified part of fibula with tibia'),
+  Item(6, 'Fib N9 - Prague Powder', 7.71, true, 'Injury to uterine vein'),
+  Item(7, 'Pepper - Red Thai', 9.55, true,
+      'Observation for other specified suspected conditions'),
+  Item(8, 'Wine - Lamancha Do Crianza', 12.67, true,
+      'Flaccid hemiplegia and hemiparesis affecting unspecified side'),
+  Item(9, "Trout - Hot Smkd, Dbl Fillet", 7.35, false,
+      "Anemia of mother, delivered, with or without mention of antepartum condition"),
+  Item(10, "Cheese - Havarti, Roasted Garlic", 8.09, true,
+      "Chronic osteomyelitis, hand"),
+  Item(11, 'The Pop Shoppe Pinapple', 3.90, false,
+      "Intrauterine death, affecting management of mother, unspecified as to episode of care or not applicable"),
+  Item(12, 'Table Cloth 72x144 White', 8.23, false,
+      'Nonadministration of necessary drug or medicinal substance'),
+  Item(13, "Mushrooms - Black, Dried", 5.18, true,
+      "Peripheral T cell lymphoma, spleen"),
+  Item(14, 'Pomello', 4.45, true, 'Acquired deformity of nose'),
+  Item(15, "Tart Shells - Sweet, 4", 3.57, true,
+      'Benign neoplasm of other specified sites of respiratory and intrathoracic organs'),
+  Item(16, 'Soup - Cream Of Broccoli', 2.56, true,
+      "Subarachnoid hemorrhage following injury with open intracranial wound, with loss of consciousness of unspecified duration"),
+  Item(17, 'Tuna - Salad Premix', 10.76, true,
+      'Herpes zoster with unspecified nervous system complication'),
+  Item(18, 'Chambord Royal', 12.16, true,
+      "Undersocialized conduct disorder, aggressive type, mild"),
+  Item(19, 'Cookie - Oreo 100x2', 4.71, false,
+      'Nonpyogenic thrombosis of intracranial venous sinus'),
+  Item(20, 'Godiva White Chocolate', 7.38, false,
+      'Malignant neoplasm of epididymis'),
+];
+
+List<Item> getItems() {
+  return _items;
+}
