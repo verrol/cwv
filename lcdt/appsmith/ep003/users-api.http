@@ -1,0 +1,13 @@
+# baseurl
+@baseurl = {{$dotenv COLLECTIONS_URL}}
+
+### create another user
+POST {{baseurl}}/users/records
+Content-Type: application/json
+
+{
+  "username": "john.doe",
+  "email": "john.doe@email.com",
+  "password": "password",
+  "passwordConfirm": "password"
+}
