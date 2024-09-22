@@ -1,0 +1,28 @@
+# baseurl
+@baseurl = {{$dotenv COLLECTIONS_URL}}
+
+### auth with user and password
+# @name userLogin
+POST {{baseurl}}/users/auth-with-password
+Content-Type: application/json
+
+{
+  "identity": "mary.anne@email.com",
+  "password": "very.secure"
+}
+
+###
+# save JWT
+@token = {{userLogin.response.body.$.token}}
+
+### get all users
+GET {{baseurl}}/users/records
+Authorization: Bearer {{token}}
+
+### get all carts
+GET {{baseurl}}/carts/records
+Authorization: Bearer {{token}}
+
+### get all carts_view
+GET {{baseurl}}/carts_view/records
+Authorization: Bearer {{token}}
